@@ -7584,7 +7584,7 @@ static-hero-s4
 
 .story-section .story-timeline:after {
   content: "";
-  background: #cee0ef;
+  background: #c5b17f;
   width: 2px;
   height: 100%;
   position: absolute;
@@ -7908,7 +7908,7 @@ static-hero-s4
   font-weight: 500;
   display: block;
   margin-bottom: 15px;
-  color: #8ab1d2;
+  color: #c5b17f;
 }
 
 .story-section .story-timeline p {

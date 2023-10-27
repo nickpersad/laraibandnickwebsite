@@ -29,8 +29,9 @@ class Hero5 extends Component {
             <section className="wpo-hero-slider wpo-hero-style-3">
                 <div className="wedding-announcement">
                     <div className="couple-text">
-                        <h2 className="slideInUp">Save The Dates</h2>
-                        <p className="slideInUp">We Are Getting Married January 13-14,2024</p>
+                        <h2 className="slideInUp">Laraib & Nick</h2>
+                        {/* <h2 className="slideInUp">Save The Dates</h2> */}
+                        <p className="slideInUp">JANUARY | 13 & 14 | 2024</p>
                         <TimeCountDown/>
                     </div>
                 </div>

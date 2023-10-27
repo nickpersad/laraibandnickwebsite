@@ -23,15 +23,15 @@ const HomePage5 =() => {
             <Navbar2 Logo={Logo} topbarNone={'topbarNone'} hclass={'wpo-header-style-3'}/>
             <Hero5/>
             <CoupleSection cClass={'pt-160'}/>
-            <VideoSection2/>
+            {/* <VideoSection2/> */}
             <StorySection/>
             <PortfolioSection/>
-            <RSVP/>
-            <CtaSection2/>
+            {/* <RSVP/> */}
+            {/* <CtaSection2/> */}
             <EventSection/>
-            <PartnerSection tNone={'wpo-partners-section-s3'}/>
-            <BlogSection2 blogClass={'wpo-blog-section-s3'}/>
-            <Footer/>
+            {/* <PartnerSection tNone={'wpo-partners-section-s3'}/> */}
+            {/* <BlogSection2 blogClass={'wpo-blog-section-s3'}/> */}
+            {/* <Footer/> */}
             <Scrollbar/>
         </Fragment>
     )
