@@ -1,7 +1,7 @@
 {
-  "name": "loveme",
-  "version": "0.1.0",
-  "homepage": "http://loveme-react.wpocean.com",
+  "name": "laraibandnick",
+  "version": "0.0.0",
+  "homepage": "https://laraibandnick.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
