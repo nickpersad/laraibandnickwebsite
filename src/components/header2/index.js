@@ -81,17 +81,17 @@ class Header2 extends Component {
                           Gallery
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link activeClass="active" to="RSVP" spy={true} smooth={true} duration={500}>
                           RSVP
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link activeClass="active" to="events" spy={true} smooth={true} offset={-80} duration={500}>
                           Events
                         </Link>
                       </li>
-                      <li className="menu-item-has-children">
+                      {/* <li className="menu-item-has-children">
                         <NavLink onClick={ClickHandler} to="/blog">
                           Blog
                         </NavLink>
@@ -134,11 +134,11 @@ class Header2 extends Component {
                             </ul>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-2 col-2">
+                {/* <div className="col-lg-3 col-md-2 col-2">
                   <div className="header-right">
                     <div className="header-search-form-wrapper">
                       <div className="cart-search-contact">
@@ -210,7 +210,7 @@ class Header2 extends Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </nav>
