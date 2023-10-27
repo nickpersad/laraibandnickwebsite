@@ -13,6 +13,7 @@ import Logo from "../../images/logo-2.png";
 import Footer from "../../components/footer";
 import PartnerSection from "../../components/PartnerSection";
 import EventSection from "../../components/EventSection";
+import Stay from "../../components/Stay";
 
 const HomePage5 = () => {
   return (
@@ -26,8 +27,8 @@ const HomePage5 = () => {
       {/* <RSVP/> */}
       {/* <CtaSection2/> */}
       <EventSection />
-      {/* <PartnerSection tNone={'wpo-partners-section-s3'}/> */}
-      {/* <BlogSection2 blogClass={'wpo-blog-section-s3'}/> */}
+      {/* <BlogSection2 blogClass={"wpo-blog-section-s3"} /> */}
+      <Stay blogClass={"wpo-blog-section-s3"} />
       {/* <Footer/> */}
       <Scrollbar />
     </Fragment>
