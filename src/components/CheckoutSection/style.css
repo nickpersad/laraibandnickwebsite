@@ -21,7 +21,7 @@ body .container {
   border-radius: 0;
   background: #fff;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.03);
   padding: 0 15px;
 }
 
@@ -68,8 +68,8 @@ body .container {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .checkoutWrapper .checkoutCard .chCardBody .paymentMethod label span {
@@ -82,7 +82,7 @@ body .container {
   letter-spacing: 0;
   font-weight: 500;
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .checkoutWrapper .checkoutCard .chCardBody input,
@@ -123,15 +123,15 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0 -5px 20px;
 }
 
 .checkoutWrapper .cardType .cardItem {
   margin: 5px;
   -ms-flex-preferred-size: calc(100% * (1 / 4) - 10px);
-      flex-basis: calc(100% * (1 / 4) - 10px);
+  flex-basis: calc(100% * (1 / 4) - 10px);
   text-align: center;
   border: 1px solid #ddd;
   padding: 18px 0;
@@ -139,13 +139,13 @@ body .container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
 }
 

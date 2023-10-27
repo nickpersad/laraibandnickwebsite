@@ -50,8 +50,9 @@ const StorySection = (props) => {
                     <h3>First Date</h3>
                     <span className="date">May 1, 2019</span>
                     <p>
-                      I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I
-                      will give you com acount of system,the actual teach
+                      I must explain to you how all this mistaken idea of
+                      denouing pleasure and praising pain was born and I will
+                      give you com acount of system,the actual teach
                     </p>
                   </div>
                 </div>
@@ -65,8 +66,9 @@ const StorySection = (props) => {
                     <h3>Our Engagement</h3>
                     <span className="date">December 31, 2021</span>
                     <p>
-                      I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I
-                      will give you com acount of system,the actual teach
+                      I must explain to you how all this mistaken idea of
+                      denouing pleasure and praising pain was born and I will
+                      give you com acount of system,the actual teach
                     </p>
                   </div>
                 </div>

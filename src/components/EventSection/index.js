@@ -13,6 +13,8 @@ const Events = [
     li2: "7:00 PM – 12:00 AM",
     li3: "TBD",
     li4: "TBD",
+    li5: "Dress: Tradional Indian Attire / Formal Western Attire",
+    li6: "Parking: Self Parking",
   },
   {
     Simg1: sImg1,
@@ -22,15 +24,19 @@ const Events = [
     li2: "5:00 PM – 6:00 PM",
     li3: "Jacaranda Country Club",
     li4: "9200 W Broward Blvd, Plantation, FL 33324",
+    li5: "Dress: Black Tie",
+    li6: "Parking: Free Valet on Site or Self Parking",
   },
   {
     Simg1: sImg1,
     Simg2: sImg2,
-    title: "Cocktail Hour",
+    title: "Mocktail Hour",
     li1: "Sunday, January 14, 2024",
     li2: "6:00 PM – 7:00 PM",
     li3: "Jacaranda Country Club",
     li4: "9200 W Broward Blvd, Plantation, FL 33324",
+    li5: "Dress: Black Tie",
+    li6: "Parking: Free Valet on Site or Self Parking",
   },
   {
     Simg1: sImg1,
@@ -40,12 +46,17 @@ const Events = [
     li2: "7:00 PM – 12:00 AM",
     li3: "Jacaranda Country Club",
     li4: "9200 W Broward Blvd, Plantation, FL 33324",
+    li5: "Dress: Black Tie",
+    li6: "Parking: Free Valet on Site or Self Parking",
   },
 ];
 
 const EventSection = (props) => {
   return (
-    <section className={`wpo-event-section section-padding ${props.eClass}`} id="events">
+    <section
+      className={`wpo-event-section section-padding ${props.eClass}`}
+      id="events"
+    >
       <div className="container">
         <SectionTitleS2 MainTitle={"TIME AND PLACE"} />
         <div className="wpo-event-wrap">
@@ -60,6 +71,8 @@ const EventSection = (props) => {
                       <li>{event.li2}</li>
                       <li>{event.li3}</li>
                       <li>{event.li4}</li>
+                      <li>{event.li5}</li>
+                      <li>{event.li6}</li>
                       <li>
                         <LocationMap />
                       </li>

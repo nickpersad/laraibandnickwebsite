@@ -36,16 +36,28 @@ class Hero5 extends Component {
           <div className="swiper-wrapper">
             <Slider {...settings}>
               <div className="hero-slide">
-                <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero1})` }}></div>
+                <div
+                  className="slide-inner slide-bg-image"
+                  style={{ backgroundImage: `url(${hero1})` }}
+                ></div>
               </div>
               <div className="hero-slide">
-                <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero2})` }}></div>
+                <div
+                  className="slide-inner slide-bg-image"
+                  style={{ backgroundImage: `url(${hero2})` }}
+                ></div>
               </div>
               <div className="hero-slide">
-                <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero3})` }}></div>
+                <div
+                  className="slide-inner slide-bg-image"
+                  style={{ backgroundImage: `url(${hero3})` }}
+                ></div>
               </div>
               <div className="hero-slide">
-                <div className="slide-inner slide-bg-image" style={{ backgroundImage: `url(${hero4})` }}></div>
+                <div
+                  className="slide-inner slide-bg-image"
+                  style={{ backgroundImage: `url(${hero4})` }}
+                ></div>
               </div>
             </Slider>
           </div>

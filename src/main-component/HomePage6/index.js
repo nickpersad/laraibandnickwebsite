@@ -1,48 +1,40 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from "react";
 import { connect } from "react-redux";
-import Navbar from '../../components/Navbar'
-import Hero6 from '../../components/hero6'
-import ArrivalProduct from '../../components/ArrivalProduct'
-import Category from '../../components/Category'
-import Scrollbar from '../../components/scrollbar'
+import Navbar from "../../components/Navbar";
+import Hero6 from "../../components/hero6";
+import ArrivalProduct from "../../components/ArrivalProduct";
+import Category from "../../components/Category";
+import Scrollbar from "../../components/scrollbar";
 import { addToCart } from "../../store/actions/action";
 import api from "../../api";
 import Logo from "../../images/logo.png";
-import Footer from '../../components/footer';
-import ProductS2 from '../../components/ProductS2';
-import ShopBanner from '../../components/ShopBanner';
-import PartnerSection from '../../components/PartnerSection';
+import Footer from "../../components/footer";
+import ProductS2 from "../../components/ProductS2";
+import ShopBanner from "../../components/ShopBanner";
+import PartnerSection from "../../components/PartnerSection";
 
+const HomePage6 = ({ addToCart }) => {
+  const productsArray = api();
 
+  const addToCartProduct = (product, qty = 1) => {
+    addToCart(product, qty);
+  };
 
-const HomePage6 =({ addToCart }) => {
+  const products = productsArray;
 
-    const productsArray = api();
-    
-    const addToCartProduct = (product, qty = 1) => {
-        addToCart(product, qty);
-      };
-
-    const products = productsArray
-
-    return(
-        <Fragment>
-            <Navbar Logo={Logo} topbarNone={'topbarNone'}/>
-            <Hero6/>
-            <ProductS2
-                    addToCartProduct={addToCartProduct}
-                    products={products}
-                />
-            <Category/>
-            <ArrivalProduct
-                    addToCartProduct={addToCartProduct}
-                    products={products}/>
-            <ShopBanner/>
-            <PartnerSection/>
-            <Footer/>
-            <Scrollbar/>
-        </Fragment>
-    )
+  return (
+    <Fragment>
+      <Navbar Logo={Logo} topbarNone={"topbarNone"} />
+      <Hero6 />
+      <ProductS2 addToCartProduct={addToCartProduct} products={products} />
+      <Category />
+      <ArrivalProduct addToCartProduct={addToCartProduct} products={products} />
+      <ShopBanner />
+      <PartnerSection />
+      <Footer />
+      <Scrollbar />
+    </Fragment>
+  );
 };
 
 export default connect(null, { addToCart })(HomePage6);

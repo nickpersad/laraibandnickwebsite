@@ -1,4 +1,4 @@
-import React, { Fragment} from "react";
+import React, { Fragment } from "react";
 import Navbar from "../../components/Navbar";
 import PageTitle from "../../components/pagetitle";
 import Footer from "../../components/footer";
@@ -6,8 +6,8 @@ import Scrollbar from "../../components/scrollbar";
 import { Button, Grid } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import {totalPrice} from "../../utils";
-import Logo from '../../images/logo.png'
+import { totalPrice } from "../../utils";
+import Logo from "../../images/logo.png";
 import {
   removeFromCart,
   incrementQuantity,
@@ -23,7 +23,7 @@ const CartPage = (props) => {
 
   return (
     <Fragment>
-      <Navbar Logo={Logo}/>
+      <Navbar Logo={Logo} />
       <PageTitle pageTitle={"Cart"} pagesub={"Cart"} />
       <div className="cart-area section-padding">
         <div className="container">
@@ -83,8 +83,12 @@ const CartPage = (props) => {
                                   </Grid>
                                 </div>
                               </td>
-                              <td className="ptice">${catItem.qty * catItem.price}</td>
-                              <td className="stock">${catItem.qty * catItem.price}</td>
+                              <td className="ptice">
+                                ${catItem.qty * catItem.price}
+                              </td>
+                              <td className="stock">
+                                ${catItem.qty * catItem.price}
+                              </td>
                               <td className="action">
                                 <ul>
                                   <li

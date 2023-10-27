@@ -6,8 +6,8 @@
     "title": "Wedding Gown",
     "price": "340.00",
     "delPrice": "380.00",
-    "brand":"Gucci",
-    "size":"Xl"
+    "brand": "Gucci",
+    "size": "Xl"
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
     "title": "Bridal Flower",
     "price": "65.00",
     "delPrice": "85.00",
-    "brand":"Gucci",
-    "size":"XXl"
+    "brand": "Gucci",
+    "size": "XXl"
   },
   {
     "id": 3,
@@ -26,8 +26,8 @@
     "title": "Bridal Shoes",
     "price": "285.00",
     "delPrice": "300.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   },
   {
     "id": 4,
@@ -36,8 +36,8 @@
     "title": "Wedding Cake",
     "price": "176.00",
     "delPrice": "178.00",
-    "brand":"Gucci",
-    "size":"M"
+    "brand": "Gucci",
+    "size": "M"
   },
   {
     "id": 5,
@@ -46,8 +46,8 @@
     "title": "Bride’s Crown",
     "price": "125.00",
     "delPrice": "130.00",
-    "brand":"Gucci",
-    "size":"XXl"
+    "brand": "Gucci",
+    "size": "XXl"
   },
   {
     "id": 6,
@@ -56,8 +56,8 @@
     "title": "Wedding Rings",
     "price": "548.00",
     "delPrice": "600.00",
-    "brand":"Gucci",
-    "size":"Xl"
+    "brand": "Gucci",
+    "size": "Xl"
   },
   {
     "id": 7,
@@ -66,8 +66,8 @@
     "title": "Wedding Gown",
     "price": "380.00",
     "delPrice": "400.00",
-    "brand":"Gucci",
-    "size":"Xl"
+    "brand": "Gucci",
+    "size": "Xl"
   },
   {
     "id": 8,
@@ -76,8 +76,8 @@
     "title": "Hair Style",
     "price": "290.00",
     "delPrice": "300.00",
-    "brand":"Gucci",
-    "size":"XX"
+    "brand": "Gucci",
+    "size": "XX"
   },
   {
     "id": 9,
@@ -86,8 +86,8 @@
     "title": "Lace Work Gown",
     "price": "65",
     "delPrice": "85.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   },
   {
     "id": 10,
@@ -96,8 +96,8 @@
     "title": "Heavy Work Gown",
     "price": "285",
     "delPrice": "295.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   },
   {
     "id": 11,
@@ -106,8 +106,8 @@
     "title": "Simple Gown",
     "price": "165",
     "delPrice": "175.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   },
   {
     "id": 12,
@@ -116,8 +116,8 @@
     "title": "Back Deep Cut",
     "price": "125",
     "delPrice": "185.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   },
   {
     "id": 13,
@@ -126,7 +126,7 @@
     "title": "Pearl Work Gown",
     "price": "548",
     "delPrice": "585.00",
-    "brand":"Gucci",
-    "size":"L"
+    "brand": "Gucci",
+    "size": "L"
   }
 ]

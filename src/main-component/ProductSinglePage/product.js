@@ -1,18 +1,16 @@
-import React from 'react';
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import React from "react";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const Product = ({ item, addToCart }) => {
-
   return (
-
     <div className="row align-items-center">
       <div className="col col-lg-5 col-12">
         <div className="shop-single-slider">
           <div className="slider-nav">
             <div>
               <Zoom>
-                <img src={item.proImg ? item.proImg : ''} alt="products" />
+                <img src={item.proImg ? item.proImg : ""} alt="products" />
               </Zoom>
             </div>
           </div>
@@ -35,7 +33,12 @@ const Product = ({ item, addToCart }) => {
             <span className="current">${item.price}</span>
             <span className="old">${item.delPrice}</span>
           </div>
-          <p>There are many variations of passages of Lorem Ipsum and available, but the majority have suffered alteration in somey form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <p>
+            There are many variations of passages of Lorem Ipsum and available,
+            but the majority have suffered alteration in somey form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
           <ul>
             <li>Going through the cites of the word in classNameical.</li>
             <li>There are many variations of passages.</li>
@@ -43,19 +46,21 @@ const Product = ({ item, addToCart }) => {
           </ul>
           <div className="product-option">
             <div className="product-row">
-              <button className="theme-btn"
-                onClick={() => addToCart(item)}>Add
-                to cart</button>
-              <div>
-              </div>
+              <button className="theme-btn" onClick={() => addToCart(item)}>
+                Add to cart
+              </button>
+              <div></div>
             </div>
           </div>
           <div className="tg-btm">
-            <p><span>Categories:</span> Book</p>
-            <p><span>Tags:</span> Jewellery, events, wedding</p>
+            <p>
+              <span>Categories:</span> Book
+            </p>
+            <p>
+              <span>Tags:</span> Jewellery, events, wedding
+            </p>
           </div>
         </div>
-
       </div>
     </div>
   );

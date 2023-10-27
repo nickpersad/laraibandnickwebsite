@@ -1,5 +1,5 @@
 import React from "react";
-import Header2 from '../header2';
+import Header2 from "../header2";
 
 export default function Navbar2(props) {
   const [scroll, setScroll] = React.useState(0);
@@ -11,11 +11,12 @@ export default function Navbar2(props) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const className = scroll > 80 ? "fixed-navbar animated fadeInDown active" : "fixed-navbar";
+  const className =
+    scroll > 80 ? "fixed-navbar animated fadeInDown active" : "fixed-navbar";
 
   return (
     <div className={className}>
-        <Header2 Logo={props.Logo} hclass={props.hclass} />
+      <Header2 Logo={props.Logo} hclass={props.hclass} />
     </div>
-  ); 
+  );
 }

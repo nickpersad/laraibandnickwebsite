@@ -8,7 +8,10 @@ import coupleImg4 from "../../images/couple/laraib.jpg";
 class CoupleSection extends Component {
   render() {
     return (
-      <section className={`couple-section section-padding ${this.props.cClass}`} id="couple">
+      <section
+        className={`couple-section section-padding ${this.props.cClass}`}
+        id="couple"
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col col-xs-12">
@@ -19,8 +22,9 @@ class CoupleSection extends Component {
                   </div>
                   <h3>Laraib Khan</h3>
                   <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give
-                    you com of system.{" "}
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis give you com
+                    of system.{" "}
                   </p>
                   {/* <div className="social">
                                         <ul>
@@ -42,8 +46,9 @@ class CoupleSection extends Component {
                   </div>
                   <h3>Nick Persad</h3>
                   <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give
-                    you com of system.
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo
+                    viverra maecenas accumsan lacus vel facilisis give you com
+                    of system.
                   </p>
                   {/* <div className="social">
                                         <ul>

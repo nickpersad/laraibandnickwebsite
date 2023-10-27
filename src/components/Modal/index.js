@@ -36,7 +36,11 @@ const LocationMap = ({ maxWidth, button, buttonClass }) => {
       <MuiDialogTitle disableTypography className={classes.root} {...other}>
         <Typography variant="h6">{children}</Typography>
         {onClose ? (
-          <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
+          <IconButton
+            aria-label="close"
+            className={classes.closeButton}
+            onClick={onClose}
+          >
             <i className="ti-close"></i>
           </IconButton>
         ) : null}
@@ -50,7 +54,12 @@ const LocationMap = ({ maxWidth, button, buttonClass }) => {
         {button}
         See Location
       </Button>
-      <Dialog open={open} onClose={handleClose} className="modalWrapper quickview-dialog" maxWidth={maxWidth}>
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        className="modalWrapper quickview-dialog"
+        maxWidth={maxWidth}
+      >
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
           Location Map
         </DialogTitle>

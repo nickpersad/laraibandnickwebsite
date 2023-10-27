@@ -56,28 +56,54 @@ class Header2 extends Component {
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-1 col-1">
-                  <div id="navbar" className="collapse navbar-collapse navigation-holder">
+                  <div
+                    id="navbar"
+                    className="collapse navbar-collapse navigation-holder"
+                  >
                     <button className="menu-close">
                       <i className="ti-close"></i>
                     </button>
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                       <li>
-                        <Link activeClass="active" to="/" onClick={ClickHandler}>
+                        <Link
+                          activeClass="active"
+                          to="/"
+                          onClick={ClickHandler}
+                        >
                           Home
                         </Link>
                       </li>
                       <li>
-                        <Link activeClass="active" to="couple" spy={true} smooth={true} offset={-100} duration={500}>
+                        <Link
+                          activeClass="active"
+                          to="couple"
+                          spy={true}
+                          smooth={true}
+                          offset={-100}
+                          duration={500}
+                        >
                           Couple
                         </Link>
                       </li>
                       <li>
-                        <Link activeClass="active" to="story" spy={true} smooth={true} duration={500}>
+                        <Link
+                          activeClass="active"
+                          to="story"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                        >
                           Story
                         </Link>
                       </li>
                       <li>
-                        <Link activeClass="active" to="gallery" spy={true} smooth={true} duration={500}>
+                        <Link
+                          activeClass="active"
+                          to="gallery"
+                          spy={true}
+                          smooth={true}
+                          duration={500}
+                        >
                           Gallery
                         </Link>
                       </li>
@@ -87,7 +113,14 @@ class Header2 extends Component {
                         </Link>
                       </li> */}
                       <li>
-                        <Link activeClass="active" to="events" spy={true} smooth={true} offset={-80} duration={500}>
+                        <Link
+                          activeClass="active"
+                          to="events"
+                          spy={true}
+                          smooth={true}
+                          offset={-80}
+                          duration={500}
+                        >
                           Events
                         </Link>
                       </li>
