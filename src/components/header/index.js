@@ -61,15 +61,6 @@ class Header extends Component {
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                       <li className="menu-item-has-children">
                         <Link onClick={ClickHandler} to="/">Home</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} to="/home">Main Home</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home2">Wedding Planner</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home3">Announcement S1</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home4">Announcement S2</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home5">Wedding Home</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home6">Shop Home</Link></li>
-                          <li><Link onClick={ClickHandler} to="/home7">Invitation</Link></li>
-                        </ul>
                       </li>
                       <li className="menu-item-has-children">
                         <Link to="/">Pages</Link>
